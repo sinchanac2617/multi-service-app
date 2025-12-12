@@ -8,7 +8,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "index"; // loads index.html from templates
+        return "index"; 
     }
 }
 
